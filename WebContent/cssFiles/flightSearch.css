@@ -1,0 +1,75 @@
+@CHARSET "ISO-8859-1";
+form {
+	width: 530px;
+	border: 9px inset #3EB005;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: URL("../pics/flightTicksImages/formBackgroundSmall.jpg");
+	font-size: 30px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	text-align: center;
+	}
+input {
+	font-size: 25px;
+	}
+#cityListDepart, #cityListDestination  {
+	display: none;
+	position: absolute;
+	border: 1px solid red;
+	width: 200px;
+	padding: 0;
+	background-color: #A0A0A0;
+	}
+.departListElement {
+	display: block;
+}
+.departListElement:hover {
+	background-color: yellow;
+	cursor: pointer;
+	}
+fieldset {
+	border-width: 3px;
+	border-color: #D41616;
+	margin-top: 10px;
+	}
+select {
+	font-size: 20px;
+	color: #0F0664;
+	font-family: castellar,"Copperplate Gothic Bold", sans-serif;
+	background-color: #BBFDD8;
+	}
+option {
+	border: 2px inset #3723EB;
+	}
+.radioButton {
+	display: none;
+	}
+#return {
+	float: left;
+	}
+#oneWay {
+	float: right;
+	}
+#return:hover, #oneWay:hover {
+	color: #3EB005;
+	cursor: pointer;
+	}
+ul {
+	margin: 0;
+	padding: 0;
+	}
+#tickReturn, #tickOneWay  {
+	display: none;
+	}
+p {
+	margin: 0;
+	}
+#submitButton {
+	margin-top: 25px;
+	height: 50px;
+	width: 530px;
+	}
+h1 {
+	text-align: center;
+	color: #076D8F;
+	}

@@ -1,0 +1,53 @@
+body {
+	background: url("../pics/border1Long.png") top left repeat-y,
+				url("../pics/border2Long.png") top right repeat-y,
+				url("../pics/flightTicksImages/flightBackground.jpg");
+		}
+.logoHolder {
+	text-align: center;
+	}
+.menu {
+	background: -webkit-linear-gradient(#92F0FA, #80F6C3); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#92F0FA, #80F6C3); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#92F0FA, #80F6C3); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#278CE4, #80F6C3); /* Standard syntax */
+	border: 1px #C3C91B groove;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+li {
+	display: inline;
+}
+.buttons {
+	margin-top: 18px;
+	margin-bottom: 15px;
+}
+#homeButton {
+	margin-right: 100px;
+}
+#hotelsButton {
+	margin-right: 100px;
+}
+#border1 {
+	float: left;
+	position: absolute;
+	top: 0px;
+	left: 0px;	
+}
+#border2 {
+	float: right;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+#footer {
+	clear: both;
+	position: absolute;
+	top: 983px;
+	left: 0px;
+	background: white;
+	color: blue;
+	width: 100%;
+}
